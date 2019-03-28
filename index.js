@@ -6,4 +6,4 @@ var MongoClient = require('./puremongo').MongoClient
 
     var collection = db.collection('test_insert');
     console.log(collection);
-}
+});
