@@ -5,4 +5,5 @@ var MongoClient = require('./puremongo').MongoClient
     if(err) throw err;
 
     var collection = db.collection('test_insert');
-console.log(collection)
+    console.log(collection);
+}
